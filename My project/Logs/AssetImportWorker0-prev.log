@@ -1,0 +1,1860 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16292 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Srping2024 Project/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50222
+Successfully changed project path to: D:/Srping2024 Project/My project
+D:/Srping2024 Project/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9792] Host "[IP] 10.16.170.145 [Port] 0 [Flags] 2 [Guid] 2536640719 [EditorId] 2536640719 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P07LQHE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9792] Host "[IP] 10.16.170.145 [Port] 0 [Flags] 2 [Guid] 2536640719 [EditorId] 2536640719 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P07LQHE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 7.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Srping2024 Project/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   NVIDIA
+    VRAM:     8019 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009259 seconds.
+- Loaded All Assemblies, in  0.329 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.264 seconds
+Domain Reload Profiling: 592ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (95ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (115ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (265ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (208ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.885 seconds
+Refreshing native plugins compatible for Editor in 3.48 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.806 seconds
+Domain Reload Profiling: 1688ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (637ms)
+		LoadAssemblies (520ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (194ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (157ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (807ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (656ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (524ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3334 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (130.8 KB). Loaded Objects now: 3803.
+Memory consumption went from 128.2 MB to 128.0 MB.
+Total: 3.186600 ms (FindLiveObjects: 0.247800 ms CreateObjectMapping: 0.286600 ms MarkObjects: 2.545300 ms  DeleteObjects: 0.106200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DOTweenModuleUtils.cs: 34ad347c902a97803d1c13fe65e97957 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/DOTweenPreviewManager.cs: c36c1e1f6226ef87f96bd51d8bc96fa8 -> 
+  custom:scripting/monoscript/fileName/DOTweenAnimation.cs: 286489be3d35a4600ea78795edfec99e -> 
+  custom:scripting/monoscript/fileName/DOTweenAnimationInspector.cs: e2903dd856fc6b745b3db9c24a3d69cd -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor-firstpass: 23c2b7ec28c59d5ca69f596615a98fdc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUnityVersion.cs: 5fda8b30fb2f0276062c9b201e3b53c4 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleUI.cs: 53c26b618f695b59a868eebdc97332ad -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-firstpass: b26c67f6a15d994bd0760e04fc84091b -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleAudio.cs: 371877257ce39f5f0996ea556debbc8a -> 
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics2D.cs: 63b0e5981d81d026672954b54596f5ae -> 
+  custom:scripting/monoscript/fileName/DOTweenProShortcuts.cs: 3862ae8ad7f99f5efe22902c80795369 -> 
+  custom:scripting/monoscript/fileName/DOTweenModuleSprite.cs: e35fb5eb1c483cffc283a374a5e25466 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/DOTweenModulePhysics.cs: 87f8974001cd2397421cfdcad1904e83 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2521.877269 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted_alpha.png
+  artifactKey: Guid(018a5623a46db1d49b1e6ff2482b07ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted_alpha.png using Guid(018a5623a46db1d49b1e6ff2482b07ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd989d25e491ba56a11fd70c32d845701') in 0.051719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.241984 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_bright.png
+  artifactKey: Guid(93b1287b4a087f84c95c72f49ec94e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_bright.png using Guid(93b1287b4a087f84c95c72f49ec94e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc7eb4ad042047e9a7eeb7ec8bf2112') in 0.075536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.230716 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock.png
+  artifactKey: Guid(e3d0592dad579e141924133869455c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock.png using Guid(e3d0592dad579e141924133869455c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd109207df88c4989309671c87523f671') in 0.018192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.231854 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/Modules
+  artifactKey: Guid(143604b8bad857d47a6f7cc7a533e2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/Modules using Guid(143604b8bad857d47a6f7cc7a533e2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6283ff6ac73e093b1e08d46f09dc2e60') in 0.000408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.193956 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll.mdb
+  artifactKey: Guid(d719ed2e2c87eae4e8dd520e2df659c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll.mdb using Guid(d719ed2e2c87eae4e8dd520e2df659c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3cb2297d1e7ad42c809724b7db24b9') in 0.000700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.150961 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBL.png
+  artifactKey: Guid(abf8a615f379ef44b9ac872a13b7712f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBL.png using Guid(abf8a615f379ef44b9ac872a13b7712f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ead9dbbb129302b3830b63eca521ce') in 0.111887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.203451 seconds.
+  path: Assets/Player Controller/_Scripts/Weapon.cs
+  artifactKey: Guid(11b685e569c4d0045969f6ec1a4f0640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/_Scripts/Weapon.cs using Guid(11b685e569c4d0045969f6ec1a4f0640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a62dc95452971379a4e737e2c5e69a0') in 0.000409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.181409 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/greenSquare.png
+  artifactKey: Guid(789ef07ba2573f6448fa8b5dc5224c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/greenSquare.png using Guid(789ef07ba2573f6448fa8b5dc5224c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b70ee8004312ea831842c71a0e3224e') in 0.018461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.259315 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/DemiLib.xml
+  artifactKey: Guid(9bf2564c9817bb34988453ae948954d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/DemiLib.xml using Guid(9bf2564c9817bb34988453ae948954d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c412a2c2f9376c15854fe2a5d089db1f') in 0.000777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.393449 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignB.png
+  artifactKey: Guid(8b6b31f71cd528243b053cfc488e73f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignB.png using Guid(8b6b31f71cd528243b053cfc488e73f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5802c69ece95b7134ae9dcfb526d49') in 0.087218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.180767 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTL.png
+  artifactKey: Guid(6efe1c8569d975640ba0c9f2ac4a9d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTL.png using Guid(6efe1c8569d975640ba0c9f2ac4a9d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38633bfadaab8adb4b9e406ff94b511f') in 0.071748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.201029 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_materials.png
+  artifactKey: Guid(e02713e10d7aced44a7a651231f0adef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_materials.png using Guid(e02713e10d7aced44a7a651231f0adef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b84b25297d501e62add829a99b696c') in 0.116326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.168783 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_terrains.png
+  artifactKey: Guid(4a091a7609ef2d34bbdfaa1a886deb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_terrains.png using Guid(4a091a7609ef2d34bbdfaa1a886deb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae54c2fb618e54d54ec9e5811c732522') in 0.097731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.165941 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBordersAlpha.png
+  artifactKey: Guid(f536c51d3da3f2e4ca93ac8773ec2ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBordersAlpha.png using Guid(f536c51d3da3f2e4ca93ac8773ec2ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1f6d09f6dd9c3a4057bc16865f950d') in 0.018550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.259615 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart.png
+  artifactKey: Guid(d173388c1d9c32a418b5b777dd89d71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart.png using Guid(d173388c1d9c32a418b5b777dd89d71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7280e8af66e8ffd280dbb7d0b95e1621') in 0.087805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.143424 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickerEmpty.png
+  artifactKey: Guid(7acc6bd588627b046bc1c9b3cd78a6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickerEmpty.png using Guid(7acc6bd588627b046bc1c9b3cd78a6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6c6d926eb54f3b5c58b9d6b59be21b') in 0.018400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.152368 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png
+  artifactKey: Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png using Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510b1efe43634294d3609d2efbd40ace') in 0.076231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.243013 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileCheckerboard.png
+  artifactKey: Guid(1954196ce2bc5c3478b215b39212c3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileCheckerboard.png using Guid(1954196ce2bc5c3478b215b39212c3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a4d64fc9b45f8ebdd270886010a7e9') in 0.072130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.209745 seconds.
+  path: Assets/Player Controller/_Scripts/KnockbackTrigger.cs
+  artifactKey: Guid(29707eb3e9aa0f142b0c46b479382bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/_Scripts/KnockbackTrigger.cs using Guid(29707eb3e9aa0f142b0c46b479382bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619eafc6b7ec8fff04a121deb9eb8d5b') in 0.000406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.294028 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_light_border.png
+  artifactKey: Guid(252f207d01ecc87419cdba1d1c0ab1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_light_border.png using Guid(252f207d01ecc87419cdba1d1c0ab1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ced426bfbc9790f2c8fdeb8f4ac6d39') in 0.048309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.194859 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs
+  artifactKey: Guid(1c3190a1a1c53f449926f6d5542b4ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs using Guid(1c3190a1a1c53f449926f6d5542b4ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adcd5721a0e9212aef926e103c23694') in 0.000450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.167469 seconds.
+  path: Assets/Player Controller/Character.controller
+  artifactKey: Guid(181160fa51bcd8646b57d4b62f4b4a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Character.controller using Guid(181160fa51bcd8646b57d4b62f4b4a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf46dd0c2aeded9221a8c211ea10f43') in 0.083844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.108255 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_optionsDropdown.png
+  artifactKey: Guid(62a48d93e78c63b4ea9b46537c7c0091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_optionsDropdown.png using Guid(62a48d93e78c63b4ea9b46537c7c0091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a89a91c626eb5aa4a2b687247849265') in 0.019048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.183469 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorder.png
+  artifactKey: Guid(afd7d0ddb1d6c744b9cb87ae49b2ce62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorder.png using Guid(afd7d0ddb1d6c744b9cb87ae49b2ce62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17abef068b68f66c9d2b0bb5cd06d16b') in 0.088220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.247510 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb
+  artifactKey: Guid(8f46310a8b0a8f04a92993c37c713243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb using Guid(8f46310a8b0a8f04a92993c37c713243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfa095932cddfc73ef4314be2db4a2e') in 0.000698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.213604 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCC.png
+  artifactKey: Guid(8f0cb66458819764b94b93250bae94b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCC.png using Guid(8f0cb66458819764b94b93250bae94b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fe5992999e9f43c0d6e6aa03faa5db') in 0.049555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.182824 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCL.png
+  artifactKey: Guid(2a8208d8e80f90944b8ff2978292b03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCL.png using Guid(2a8208d8e80f90944b8ff2978292b03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d750d2248068e35d77b58542d4e877') in 0.067674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.179404 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty.png
+  artifactKey: Guid(4578222ee7a511446b0c340551bf8740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty.png using Guid(4578222ee7a511446b0c340551bf8740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d46e633806b5bd5181d161a37b9f4a8') in 0.111867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.180123 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_bundle.png
+  artifactKey: Guid(58676a985ae875646b7be748cf4499fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_bundle.png using Guid(58676a985ae875646b7be748cf4499fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51334a75a8be10c1cce4f06e2eb10bd') in 0.123058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.136473 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty01.png
+  artifactKey: Guid(aa8dc9238ab21e54ca88fa22698e4679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty01.png using Guid(aa8dc9238ab21e54ca88fa22698e4679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a858900177d2872a72afdac600aed55') in 0.062989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.244575 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted.png
+  artifactKey: Guid(c99a391f381fe534c80a193fe9f307a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_slanted.png using Guid(c99a391f381fe534c80a193fe9f307a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478b030904d621943dfbd2cf77cbcebd') in 0.017118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.218981 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha50.png
+  artifactKey: Guid(ef40b00a83f7bd34f84851386b3321f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha50.png using Guid(ef40b00a83f7bd34f84851386b3321f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411f216654c4f3778dc8cad8177c1089') in 0.063753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.197231 seconds.
+  path: Assets/Player Controller/Scenes/SampleScene
+  artifactKey: Guid(17dc18c35ee33dc4d84abc0cc47ef9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Scenes/SampleScene using Guid(17dc18c35ee33dc4d84abc0cc47ef9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07b5b4c4ab7048daa09294129845dda') in 0.000413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.193002 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs
+  artifactKey: Guid(230fe34542e175245ba74b4659dae700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs using Guid(230fe34542e175245ba74b4659dae700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d64772163247633c6d63ca5ffcd9b3f') in 0.000386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.127482 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs
+  artifactKey: Guid(4d0390bd8b8ffd640b34fe25065ff1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs using Guid(4d0390bd8b8ffd640b34fe25065ff1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb6efefac00b027509a14de5bf9503c') in 0.000366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.178638 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/circle.png
+  artifactKey: Guid(af28470bd0e2e9543a6dfa9a1a4b348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/circle.png using Guid(af28470bd0e2e9543a6dfa9a1a4b348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ab6b5f8a420949b048450a367f3dd9') in 0.073427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.220990 seconds.
+  path: Assets/Player Controller/_Scripts/TargetCheck.cs
+  artifactKey: Guid(0b57f9c4375d699438903826af1aa179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/_Scripts/TargetCheck.cs using Guid(0b57f9c4375d699438903826af1aa179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1c8a3d3905659a9efc941f0d65fbf3') in 0.000453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.211440 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_dark.png
+  artifactKey: Guid(d542f997a51000946873268e3546b6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/grid_dark.png using Guid(d542f997a51000946873268e3546b6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da07efacb3cd062cae5b4bdbb5be2aeb') in 0.018239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.121576 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cross.png
+  artifactKey: Guid(3b67e53c8c2f8114b966c0e70d452419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cross.png using Guid(3b67e53c8c2f8114b966c0e70d452419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ce151ed801b36af1c4e324449d2093') in 0.112171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.153894 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_open.png
+  artifactKey: Guid(18a5a7cde794cc04b9b446f0feedb3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_open.png using Guid(18a5a7cde794cc04b9b446f0feedb3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b3978ecd3fa237b552b40072c7d6db') in 0.125751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.194128 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_models.png
+  artifactKey: Guid(09a0cde07b4d75f49b4c817932791b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_models.png using Guid(09a0cde07b4d75f49b4c817932791b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bc34e4d3483e381dff5ee8ecf182bd') in 0.018443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.193070 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_star_border.png
+  artifactKey: Guid(18f3a26aa87fccc4cb5e211d4c6de662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_star_border.png using Guid(18f3a26aa87fccc4cb5e211d4c6de662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f89419cb63e840905cf3e7d20c11b8') in 0.113107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.231245 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderAlpha15.png
+  artifactKey: Guid(dfd33662d9f6f3849bd92f6e159ca226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderAlpha15.png using Guid(dfd33662d9f6f3849bd92f6e159ca226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87a2cf29f8b446a92f9a0f8988515bc') in 0.014862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.152842 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_play.png
+  artifactKey: Guid(2a563a43c33f0f3428d02b3a43886fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_play.png using Guid(2a563a43c33f0f3428d02b3a43886fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52621d478c63fb921d94299ce39fbb17') in 0.086750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.152394 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved.png
+  artifactKey: Guid(4896b5aa9d63dec498136c21ffce735b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved.png using Guid(4896b5aa9d63dec498136c21ffce735b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0dfdb6b6c7081173f9710eea2ee4e7') in 0.018918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.171333 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBorders.png
+  artifactKey: Guid(25da15ac84743244ab4c860cf8798ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved_darkBorders.png using Guid(25da15ac84743244ab4c860cf8798ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b43aea94d2407055e00e0e53643502d') in 0.018366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.190170 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_play.png
+  artifactKey: Guid(d8306b1e159c72c4ebc9a4fc31debe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_play.png using Guid(d8306b1e159c72c4ebc9a4fc31debe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc04395ba8acc14869fc5f102c184953') in 0.018166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.328183 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha10.png
+  artifactKey: Guid(93b68213089b05943a651574eb7e2fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha10.png using Guid(93b68213089b05943a651574eb7e2fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80bc120bf74700ed0fb8cef96b778f2') in 0.017985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.199724 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareCurved02.png
+  artifactKey: Guid(282d742ce2ddf9f458812ab84ea6fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareCurved02.png using Guid(282d742ce2ddf9f458812ab84ea6fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd428612a288907f2e570b378b4c1dbea') in 0.018871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.257978 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs
+  artifactKey: Guid(b766d08851589514b97afb23c6f30a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs using Guid(b766d08851589514b97afb23c6f30a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e35116c0a647aa297498ef8fdf8e76') in 0.000420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.174285 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs
+  artifactKey: Guid(8fb0d65aa5b048649a3a785b82b8f8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs using Guid(8fb0d65aa5b048649a3a785b82b8f8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f3a41c9a6c85c64498742a9c7eefce') in 0.000378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.193110 seconds.
+  path: Assets/Player Controller/PH_BADGUY.controller
+  artifactKey: Guid(eb4757908f9b38842bc0a3fe50170dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/PH_BADGUY.controller using Guid(eb4757908f9b38842bc0a3fe50170dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1942e0cf704e0ea5f3fea9f620923072') in 0.030416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.230315 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedAlpha.png
+  artifactKey: Guid(a1606d34a052ed3449da93edd229743e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedAlpha.png using Guid(a1606d34a052ed3449da93edd229743e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681212eb2d63d5021f7758891717f1b1') in 0.080158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.194409 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTC.png
+  artifactKey: Guid(0f79253104349f44cb73978f6c8e93de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTC.png using Guid(0f79253104349f44cb73978f6c8e93de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4010abfdbd94612d15b770b9ac5b274f') in 0.018926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.206176 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro Examples/Examples Assets
+  artifactKey: Guid(2add6a5374e55e642a55ed3b43fd9db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro Examples/Examples Assets using Guid(2add6a5374e55e642a55ed3b43fd9db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757cc97d9c958ac2f4138e4f767cfd61') in 0.000497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.208443 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro/DOTweenTk2d.cs
+  artifactKey: Guid(b590cd7c24ffa5d4faa5b6fa993cccad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro/DOTweenTk2d.cs using Guid(b590cd7c24ffa5d4faa5b6fa993cccad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71e2f16ace8268e9f6ad739c3aeea9d') in 0.000367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.277225 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/orangeSquare.png
+  artifactKey: Guid(3e730492361eb6e45be5c5fdafac23be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/orangeSquare.png using Guid(3e730492361eb6e45be5c5fdafac23be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fddc221c804ef3ae7544c1ae6706d75') in 0.018444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.215077 seconds.
+  path: Assets/Player Controller/_Scripts/Target.cs
+  artifactKey: Guid(016f5eed7d1478344b5b73ab488f366d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/_Scripts/Target.cs using Guid(016f5eed7d1478344b5b73ab488f366d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bee9fb09f4684f6be46a1a8a07f464') in 0.000650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.447770 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/DOTween.dll.mdb
+  artifactKey: Guid(4f007001a22b3d24dae350342c4d19c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/DOTween.dll.mdb using Guid(4f007001a22b3d24dae350342c4d19c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a6ec4bbcb4aad92a7b74610c105cc9') in 0.000672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.183780 seconds.
+  path: Assets/Player Controller/_Scripts/ThirdPersonCam.cs
+  artifactKey: Guid(b0bba62ce114c4347bec3a8fdf3c5d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/_Scripts/ThirdPersonCam.cs using Guid(b0bba62ce114c4347bec3a8fdf3c5d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ceaf141904b688184ef116c2313498') in 0.000356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.205156 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor
+  artifactKey: Guid(77fbbad1c51d68f4c844d26743104b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor using Guid(77fbbad1c51d68f4c844d26743104b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6166c5770640b1954b4fa173a02e892a') in 0.000365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.145693 seconds.
+  path: Assets/Player Controller/_Scripts/PH_Enemy.cs
+  artifactKey: Guid(655b5b0fee5fcbb419db37772ac016a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/_Scripts/PH_Enemy.cs using Guid(655b5b0fee5fcbb419db37772ac016a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6fe47e3bfbc7101185b644410bdf24') in 0.000367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.166839 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs
+  artifactKey: Guid(7bcaf917d9cf5b84090421a5a2abe42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs using Guid(7bcaf917d9cf5b84090421a5a2abe42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1541c0dae825fa6090f84b169ec8c3dc') in 0.000371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.178142 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.XML
+  artifactKey: Guid(753a4f4ed73b17143923101226957756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.XML using Guid(753a4f4ed73b17143923101226957756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443c6b9a716dfa5cf54173bb1c87a090') in 0.000706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.214544 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro/DOTweenPro.XML
+  artifactKey: Guid(db7d7ef84c388bc4fbc3835d31a15306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro/DOTweenPro.XML using Guid(db7d7ef84c388bc4fbc3835d31a15306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1f2b1990dd49a0bb78746e62f6f686') in 0.000732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.145019 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro Examples
+  artifactKey: Guid(0e606767f2f03204fb289d21d2696684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro Examples using Guid(0e606767f2f03204fb289d21d2696684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a722dd62a513fa1183112866da243afc') in 0.000358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.264793 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_prefab.png
+  artifactKey: Guid(ed3789262161efa4fa33c85ca534590e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_prefab.png using Guid(ed3789262161efa4fa33c85ca534590e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba157607ac1623ff1ef623d425475c57') in 0.091726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.228640 seconds.
+  path: Assets/Player Controller/_Scripts/Player_Animation_Events.cs
+  artifactKey: Guid(08a0ce6a345bac14a912339741b5c7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/_Scripts/Player_Animation_Events.cs using Guid(08a0ce6a345bac14a912339741b5c7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5331dd063484f1b1edc32c3e24bc44d') in 0.000407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.293339 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty02.png
+  artifactKey: Guid(29b0e8156f6fb774faf129c83bc9ee33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty02.png using Guid(29b0e8156f6fb774faf129c83bc9ee33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f100f896f9259b162ae80a091875f3ec') in 0.074593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.142747 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png
+  artifactKey: Guid(7051dba417b3d53409f2918f1ea4938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png using Guid(7051dba417b3d53409f2918f1ea4938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f2599b9399bad5df79b4961296ad1f') in 0.064320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.181429 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro Examples/DOTweenPath.unity
+  artifactKey: Guid(a351b59ca54a0bc4083c35844da13a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro Examples/DOTweenPath.unity using Guid(a351b59ca54a0bc4083c35844da13a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098e2470fcfc7ae0da1ba96ec7cbfbbe') in 0.000447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.272951 seconds.
+  path: Assets/Player Controller/_Scripts/Player.cs
+  artifactKey: Guid(fee332dc365a54eefb2ee65532aa9746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/_Scripts/Player.cs using Guid(fee332dc365a54eefb2ee65532aa9746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2b27b6c6a7db2fca8882157b261fa9') in 0.000368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.150184 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_whiteBorderAlpha.png
+  artifactKey: Guid(039dc89c76661c344b7776f8a47cc5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_whiteBorderAlpha.png using Guid(039dc89c76661c344b7776f8a47cc5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48eaa85bdf9a0f67d92e07ac024c972') in 0.018466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.176987 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs
+  artifactKey: Guid(e0203fd81362bab4d842d87ad09ee76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs using Guid(e0203fd81362bab4d842d87ad09ee76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b1e3cfad2560cf8f45c0ee22c7e4bd') in 0.000491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.162910 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_audio.png
+  artifactKey: Guid(e1af8927fb6f5634896d59aed409a589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_audio.png using Guid(e1af8927fb6f5634896d59aed409a589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010cdce417f8dcfe039f2c818aef8de1') in 0.018418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.226786 seconds.
+  path: Assets/Player Controller/Animatiosn/Attack2.anim
+  artifactKey: Guid(3a0c4bf0e88f64d46af1e464c08d6ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Animatiosn/Attack2.anim using Guid(3a0c4bf0e88f64d46af1e464c08d6ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68cfd307c85c761042a4afeb1b3282f') in 0.017362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.192079 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareCorners03.png
+  artifactKey: Guid(dec3ea647707588408ec0d11ab130b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareCorners03.png using Guid(dec3ea647707588408ec0d11ab130b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3851ddc3bc92175d8abf47fec67adb') in 0.018786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.239333 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_play_border.png
+  artifactKey: Guid(45e128e1cf00555479ee7934ab11cadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_play_border.png using Guid(45e128e1cf00555479ee7934ab11cadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc32cae3e9c1ea41b9fb945cbcc2e745') in 0.051506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.168480 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.dll
+  artifactKey: Guid(202f9ddaf2c1a8a429504f7f3cd7b84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.dll using Guid(202f9ddaf2c1a8a429504f7f3cd7b84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feaf7259cd40632f03dc015093aeffa1') in 0.000432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.238811 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_folder.png
+  artifactKey: Guid(4f2c4b43188596b47866d41e1dc13c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_folder.png using Guid(4f2c4b43188596b47866d41e1dc13c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c491f450c0faae6abb2812b1b98f290') in 0.018419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.196806 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare.png
+  artifactKey: Guid(dfe6e0ac3e5f24740a17e14b65e08406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare.png using Guid(dfe6e0ac3e5f24740a17e14b65e08406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd11f554fa9ae980c8aede653b41b87') in 0.099952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.202147 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll.mdb
+  artifactKey: Guid(ee3a420017f129443896310d9fab256b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll.mdb using Guid(ee3a420017f129443896310d9fab256b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29efa92b59aebd5b16cc323763a949f9') in 0.000712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.164155 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/circle_dashedBorderEmpty.png
+  artifactKey: Guid(522b0133a9838674ca9a12e0c6e5a59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/circle_dashedBorderEmpty.png using Guid(522b0133a9838674ca9a12e0c6e5a59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b53a5b32ff4de10ec3d5555eaa0cde5') in 0.108739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.296057 seconds.
+  path: Assets/Player Controller/Animatiosn/Attack1 1.anim
+  artifactKey: Guid(7283ac51dade8db45a71a3bf77b02b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Animatiosn/Attack1 1.anim using Guid(7283ac51dade8db45a71a3bf77b02b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ec41d915e7823fc71c1d6e68c1e408') in 0.024919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.141657 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignHC.png
+  artifactKey: Guid(b9e0e5a8836018e4c810fbceba55a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignHC.png using Guid(b9e0e5a8836018e4c810fbceba55a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01370f5dcd6d47a6ab595b95f96f1ac') in 0.107447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.312983 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment_border.png
+  artifactKey: Guid(d98b8847646169c4fb5af28dd84c4179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment_border.png using Guid(d98b8847646169c4fb5af28dd84c4179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5ee22284d5d423bccacc5947a4b2ce') in 0.057620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.268122 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_textures.png
+  artifactKey: Guid(3e6b96a975eba1c43b2bad66fb7f8b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_textures.png using Guid(3e6b96a975eba1c43b2bad66fb7f8b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f9ee339045dea1325a70d59b3f7d1c') in 0.121028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.205751 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs
+  artifactKey: Guid(a060394c03331a64392db53a10e7f2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs using Guid(a060394c03331a64392db53a10e7f2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43b54f1a0f2fdd9c408e1e0ee3ceb32') in 0.000449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.228090 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs
+  artifactKey: Guid(1efb03f507a60b949a70ed828ac18eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs using Guid(1efb03f507a60b949a70ed828ac18eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425ad554dee0d6618a688abd001badad') in 0.000436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.241795 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_demigiant.png
+  artifactKey: Guid(229d0d11465a822449f78a50dbf7104d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_demigiant.png using Guid(229d0d11465a822449f78a50dbf7104d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eda6d43e442baa7548a2dd44edb1879') in 0.019911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.275481 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog.png
+  artifactKey: Guid(7c83a08052c9e2f49b47897a637994de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog.png using Guid(7c83a08052c9e2f49b47897a637994de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1b5f804b1812d81d6ca95c22717c89') in 0.018822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.183153 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_heart.png
+  artifactKey: Guid(20794834c0a413f408b80110d0fc73b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_heart.png using Guid(20794834c0a413f408b80110d0fc73b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be81677cc1a011527ee493ddb771d70') in 0.076098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.214010 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCR.png
+  artifactKey: Guid(6f504a3fa8848264bb4fb9bb7d582dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignCR.png using Guid(6f504a3fa8848264bb4fb9bb7d582dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a97af59f045deea434f2c909dad4834') in 0.075705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.139491 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ok.png
+  artifactKey: Guid(34f39b5a760ddbb4d8b8749852868335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ok.png using Guid(34f39b5a760ddbb4d8b8749852868335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1693967440d4c90bd76067305c036d63') in 0.017998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.409613 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment.png
+  artifactKey: Guid(622fdb780ae13e840938631c5ed708f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_comment.png using Guid(622fdb780ae13e840938631c5ed708f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc35db97cd32ba32646b5d74467ec85') in 0.107632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.166146 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_todo.png
+  artifactKey: Guid(c561c878c05ceb1448966fe706740008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_todo.png using Guid(c561c878c05ceb1448966fe706740008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a8390d618d5808051dad7be53fa180') in 0.075103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.252463 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_scripts.png
+  artifactKey: Guid(96cbdf605b8ddb34da384703f2d0b849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_scripts.png using Guid(96cbdf605b8ddb34da384703f2d0b849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb722a163ef3939f7c2a5ecd20129f1c') in 0.019613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.310204 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_particles.png
+  artifactKey: Guid(8003873ab749935489bb11f23f830856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_particles.png using Guid(8003873ab749935489bb11f23f830856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9370814853d4a9e743a55f52ef8d4d7') in 0.020313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.248192 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility_off.png
+  artifactKey: Guid(0c0132429106c8a4d89d9d0a6b723ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility_off.png using Guid(0c0132429106c8a4d89d9d0a6b723ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50881b220e45d5319b65f6b7d22e4a24') in 0.064980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.152467 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_Basics.unity
+  artifactKey: Guid(6a2ad353325ffe64983c28d69a8738f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_Basics.unity using Guid(6a2ad353325ffe64983c28d69a8738f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640d2723fadbd0426e87a98c883a37cc') in 0.000420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.163817 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_nodeArrow.png
+  artifactKey: Guid(4aa34055b1d36ef479af3d7b5701b28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_nodeArrow.png using Guid(4aa34055b1d36ef479af3d7b5701b28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64a08796cd768549bdd53423f234b20') in 0.020529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.194562 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/yellowSquare.png
+  artifactKey: Guid(517a5bfe18f2ee04d9925db10be034e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/yellowSquare.png using Guid(517a5bfe18f2ee04d9925db10be034e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75528ae585515245fb6ffd079518d56e') in 0.018583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.131803 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blueSquare.png
+  artifactKey: Guid(05cfe010378336646ad6c721f66543d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blueSquare.png using Guid(05cfe010378336646ad6c721f66543d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f2bfda1c3e9052937459c7fa47fbdf') in 0.140903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.247576 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBR.png
+  artifactKey: Guid(eeac3acbf7d1cd54fabfb1c4a12f9fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBR.png using Guid(eeac3acbf7d1cd54fabfb1c4a12f9fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce2cb0fe3103109c23880d339579318') in 0.073401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.151971 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeHAlignT.png
+  artifactKey: Guid(1ccb12a4b0bf8f447b2cc114851732f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeHAlignT.png using Guid(1ccb12a4b0bf8f447b2cc114851732f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09271f2f06aba28855bcf0c412f4ea9') in 0.075880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.214741 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_doing.png
+  artifactKey: Guid(4dd24a9f658e7a3438d4fa08fb85aba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_doing.png using Guid(4dd24a9f658e7a3438d4fa08fb85aba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9588ed31dc64fc564e9da445d266663b') in 0.075380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.177009 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickEmpty.png
+  artifactKey: Guid(c456d5ac01d2aa843a63985497b04931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderThickEmpty.png using Guid(c456d5ac01d2aa843a63985497b04931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0c4708634ff6e8843bfd2c76904684') in 0.087985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.273923 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha15.png
+  artifactKey: Guid(5510cdd48a6aaaa439c95ef5b2fe9e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha15.png using Guid(5510cdd48a6aaaa439c95ef5b2fe9e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb7013a74906b0716a54727337835ea') in 0.014693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.179163 seconds.
+  path: Assets/Player Controller/_Scripts/Slash.cs
+  artifactKey: Guid(4581af8961f8a0a4ba918003a43c7b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/_Scripts/Slash.cs using Guid(4581af8961f8a0a4ba918003a43c7b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f163ed50402d8f4e061f7a80f59107b') in 0.000404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.413625 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_closed.png
+  artifactKey: Guid(301c130dbb4bbba4e87072804939c861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_foldout_closed.png using Guid(301c130dbb4bbba4e87072804939c861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49676634f0317dc99e3e596930159c70') in 0.091226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.245493 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha25.png
+  artifactKey: Guid(f7ff421f40d548444864a01cd7f47112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha25.png using Guid(f7ff421f40d548444864a01cd7f47112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a736c9e5f870cc6e98c1eebdde743442') in 0.119802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.200443 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart_border.png
+  artifactKey: Guid(669c487f3c9c5fe4abb6459f9c2628f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_heart_border.png using Guid(669c487f3c9c5fe4abb6459f9c2628f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10764b317bf1549e7b755b6022be673d') in 0.018664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.341666 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alert.png
+  artifactKey: Guid(39cacc93c6c183f44992bf2421362f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alert.png using Guid(39cacc93c6c183f44992bf2421362f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e26bc677bb552a7bd8ac9456e55fac') in 0.096127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.165950 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignL.png
+  artifactKey: Guid(d18ceface0c20014b8db4bba05a41b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignL.png using Guid(d18ceface0c20014b8db4bba05a41b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd229e546a06b8d998ab0007826bd16a5') in 0.075640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.308365 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_AdvancedSettings.lighting
+  artifactKey: Guid(1fb8a6cf4400fcc4cbf6ca4f97d58475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_AdvancedSettings.lighting using Guid(1fb8a6cf4400fcc4cbf6ca4f97d58475) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '479f72c025a07e0f8018e6b7147cdf27') in 0.000834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.150668 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha80.png
+  artifactKey: Guid(11848dd30e516d846a02cd302634d317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha80.png using Guid(11848dd30e516d846a02cd302634d317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ccc7b4911f604c1579673ec6a3113a') in 0.112232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.137878 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/Editor
+  artifactKey: Guid(b27f58ae5d5c33a4bb2d1f4f34bd036d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/Editor using Guid(b27f58ae5d5c33a4bb2d1f4f34bd036d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb83019fb3db34e335839d6cbfc8dc5') in 0.000401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.167161 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/purpleSquare.png
+  artifactKey: Guid(dc0ca9b32ae9fd049911671cf1a480bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/purpleSquare.png using Guid(dc0ca9b32ae9fd049911671cf1a480bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f205fa5b41ff5fbd9a8dbf7c5903f307') in 0.019081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.546768 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.dll.mdb
+  artifactKey: Guid(2c20a7b4db3cd0a4a99bcf6218f92860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.dll.mdb using Guid(2c20a7b4db3cd0a4a99bcf6218f92860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb8c6cab79c87c0656f34503982995b') in 0.000764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.164080 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_Advanced.unity
+  artifactKey: Guid(a5f7a56d339da84449899ecf95fbe33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_Advanced.unity using Guid(a5f7a56d339da84449899ecf95fbe33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045aecca50cbf3f44e897eb35e2e0fbf') in 0.000389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.166196 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_delete.png
+  artifactKey: Guid(6b1f9e1e1c2cf004b8e3bdd3033a8e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_delete.png using Guid(6b1f9e1e1c2cf004b8e3bdd3033a8e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e362e00daa3b56fa6cd1e482ec7bfa') in 0.099736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.178582 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/DemiLib.dll.mdb
+  artifactKey: Guid(995cf2d9b4a41f840b3a41712e9b3bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/DemiLib.dll.mdb using Guid(995cf2d9b4a41f840b3a41712e9b3bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3185ac2097c55ade12fd25b3d5149f42') in 0.000821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.196161 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/redSquare.png
+  artifactKey: Guid(fbdd7ecf39c13bf48a5bd02a1159c90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/redSquare.png using Guid(fbdd7ecf39c13bf48a5bd02a1159c90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3363f46620a1bf5fdcc3eb42966feb85') in 0.018501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.317303 seconds.
+  path: Assets/Player Controller/Resources
+  artifactKey: Guid(0f6d5dc33c62b844b9d4dc0d38ad179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Resources using Guid(0f6d5dc33c62b844b9d4dc0d38ad179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326efaa05c72e5ae848d48cbbc17961d') in 0.000535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.332593 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock_open.png
+  artifactKey: Guid(8d60feae84bdb2d4eb16a0037056c588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_lock_open.png using Guid(8d60feae84bdb2d4eb16a0037056c588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a5e0387ddd00dc370b5487c15ea225') in 0.075526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.192790 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib
+  artifactKey: Guid(5a499e4809836274eb38cd99b370a2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib using Guid(5a499e4809836274eb38cd99b370a2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bb39ca7c1b362974578f490f5a794f') in 0.000400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.199212 seconds.
+  path: Assets/Player Controller/Scenes/SampleScene/NavMesh.asset
+  artifactKey: Guid(0b3a73d5503668a4f9263dcddf2d3f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Scenes/SampleScene/NavMesh.asset using Guid(0b3a73d5503668a4f9263dcddf2d3f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3f95fed6f0e8ba021940e84506ba5c') in 0.000825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.257199 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera.png
+  artifactKey: Guid(37639be6148186645bca3fce45d5aa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera.png using Guid(37639be6148186645bca3fce45d5aa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad81e9b39cd9fb8e7e51db517a179528') in 0.017727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.170906 seconds.
+  path: Assets/Player Controller/_Scripts/Knock.cs
+  artifactKey: Guid(7190e6430e4c8834babf5483d37d63de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/_Scripts/Knock.cs using Guid(7190e6430e4c8834babf5483d37d63de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c308f5cc0807c680152e00b2eb6779e7') in 0.000417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.166190 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/DOTween.dll
+  artifactKey: Guid(a811bde74b26b53498b4f6d872b09b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/DOTween.dll using Guid(a811bde74b26b53498b4f6d872b09b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765167cd67fed55f2f3a2f25207e2eba') in 0.000607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.310202 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro/DOTweenDeUnityExtended.cs
+  artifactKey: Guid(0a0cc3e90c4a6ea41bb14d7f35c577c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro/DOTweenDeUnityExtended.cs using Guid(0a0cc3e90c4a6ea41bb14d7f35c577c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b817dc674e1157c3a86914dc34b0506f') in 0.000375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.194080 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg
+  artifactKey: Guid(78a59ca99f8987941adb61f9e14a06a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg using Guid(78a59ca99f8987941adb61f9e14a06a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52836f8f5a84b3ce107bf02bda07493f') in 0.088274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.200501 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs
+  artifactKey: Guid(dae9aa560b4242648a3affa2bfabc365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs using Guid(dae9aa560b4242648a3affa2bfabc365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09856e337855cebf6a0faae693b4708e') in 0.000427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.158696 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha50.png
+  artifactKey: Guid(aa1d42dc6ff3e894da2208c6929d2165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha50.png using Guid(aa1d42dc6ff3e894da2208c6929d2165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5727e89a764bcfe7bc0f1c6622983ae5') in 0.018878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.171222 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cog.png
+  artifactKey: Guid(fb605a2688b31194887f2e7a6769235b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_cog.png using Guid(fb605a2688b31194887f2e7a6769235b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e3b7d219c2db01245714356f147b1f') in 0.018525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.183766 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTR.png
+  artifactKey: Guid(e01c0b07c87513844ab88bb432bcf85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignTR.png using Guid(e01c0b07c87513844ab88bb432bcf85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0dd6edcec4c1b00d08f85387dd1ee1') in 0.088463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.142556 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro Examples/DOTweenPathSettings.lighting
+  artifactKey: Guid(b6179e9b8d18d004db5eecbb391279dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro Examples/DOTweenPathSettings.lighting using Guid(b6179e9b8d18d004db5eecbb391279dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'ac8eb768b37338872037b4c999afc539') in 0.000915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.162234 seconds.
+  path: Assets/Player Controller/_Scripts/Player_Manager.cs
+  artifactKey: Guid(5294873c0e95f1b4ba795f9dd198d84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/_Scripts/Player_Manager.cs using Guid(5294873c0e95f1b4ba795f9dd198d84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204706a1e0ae4ededaa07b520bc4ada0') in 0.000372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.240328 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull_border.png
+  artifactKey: Guid(6dfd924c0ba23844fb5d04ad1560de22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull_border.png using Guid(6dfd924c0ba23844fb5d04ad1560de22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31247b0a2b944b672daf1706136be164') in 0.055209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.204466 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro/Editor/DOTweenPreviewManager.cs
+  artifactKey: Guid(22292a5f27a9a644ba9e6ad1bf863531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro/Editor/DOTweenPreviewManager.cs using Guid(22292a5f27a9a644ba9e6ad1bf863531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8785ffc8607fa3324d1949d7ef8a71') in 0.000632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.161600 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty.png
+  artifactKey: Guid(8db54efcce998554c86b796b37a7cdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty.png using Guid(8db54efcce998554c86b796b37a7cdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef194882bde0ed72e6075458c5439377') in 0.086876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.167474 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png
+  artifactKey: Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png using Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239a99829a9fc834a29048419a070728') in 0.124511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.195926 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_empty.png
+  artifactKey: Guid(d1278357b25e10442b6ca6c24edc9781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/tileBars_empty.png using Guid(d1278357b25e10442b6ca6c24edc9781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa81e85c95b294230dce07aa2eab8b8') in 0.052003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.226514 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBC.png
+  artifactKey: Guid(2cdc0bc527f7a434496c6be9236e636f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignBC.png using Guid(2cdc0bc527f7a434496c6be9236e636f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f695d3b0e7b31470e57c130e407050') in 0.088147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.355433 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween
+  artifactKey: Guid(a50bd9a009c8dfc4ebd88cc8101225a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween using Guid(a50bd9a009c8dfc4ebd88cc8101225a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e171110ee07579f82a8cd722b7fdd7') in 0.000415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.205389 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquare.png
+  artifactKey: Guid(7ba4b2810f605d945af87e032ca2957b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquare.png using Guid(7ba4b2810f605d945af87e032ca2957b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00dbd1e4048f85c1dd44da356a8b7430') in 0.079219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.235637 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_light.png
+  artifactKey: Guid(4f69b96f9308d8f4ea239773ef5b55c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_light.png using Guid(4f69b96f9308d8f4ea239773ef5b55c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad1c708f64a68d3a0b697c1acef6d95') in 0.100068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.178235 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha25.png
+  artifactKey: Guid(511f6b24c50557a40a09633b12b8b8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareAlpha25.png using Guid(511f6b24c50557a40a09633b12b8b8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2ab90782ed2a8cc4b57146578d5674') in 0.088457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.175732 seconds.
+  path: Assets/Player Controller/_Scripts/ParryBoxCollider.cs
+  artifactKey: Guid(6786e83e607e96c4eb8b29fd0135fb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/_Scripts/ParryBoxCollider.cs using Guid(6786e83e607e96c4eb8b29fd0135fb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35e8960213842606ed10cff58880c08') in 0.000430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.177961 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility.png
+  artifactKey: Guid(55c2b426022dac44f9b25f0cba28aa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_visibility.png using Guid(55c2b426022dac44f9b25f0cba28aa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed1fccf7a8cc176e199ffcedcbcda04') in 0.050802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.194190 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/DOTween.XML
+  artifactKey: Guid(34192c5e0d14aee43a0e86cc4823268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/DOTween.XML using Guid(34192c5e0d14aee43a0e86cc4823268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa190d3ede7dcc7efc785dafa9b575a') in 0.016793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.241230 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro/readme.txt
+  artifactKey: Guid(aa8f07903bf128e44a7d0b91a63dedab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro/readme.txt using Guid(aa8f07903bf128e44a7d0b91a63dedab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98719a7982d3f88638d96d9d1c510305') in 0.000710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.432515 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog_border.png
+  artifactKey: Guid(6862027f2176eae40a3143c562466a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_cog_border.png using Guid(6862027f2176eae40a3143c562466a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ebcd1eabd37f4fa57599464fbe5722') in 0.087288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.255450 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_demigiant.png
+  artifactKey: Guid(f36ab42cc6fcdfd4187033279d3d14a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_demigiant.png using Guid(f36ab42cc6fcdfd4187033279d3d14a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b315759daedeb1dc80c42cb88d75f44d') in 0.072800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.218029 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro/DOTweenDeAudio.cs
+  artifactKey: Guid(1d1aa01bacf85c04ea18116651a7f0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro/DOTweenDeAudio.cs using Guid(1d1aa01bacf85c04ea18116651a7f0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1699a1324cb86d8f62d468659f387639') in 0.000416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.163343 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull.png
+  artifactKey: Guid(01976ad42d31f494e8040d3e32e283dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_skull.png using Guid(01976ad42d31f494e8040d3e32e283dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa2f1d122d7ae453f74eefc32d01b8b') in 0.111983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.193311 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_atlas.png
+  artifactKey: Guid(e2279677842a8064fbae0bc889fb85ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_atlas.png using Guid(e2279677842a8064fbae0bc889fb85ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377bdaaae79da51a2ef45c5a88ad8956') in 0.072968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.165760 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare_fadeOut_bt.png
+  artifactKey: Guid(a40dc0d6372a9084fb45976308087290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquare_fadeOut_bt.png using Guid(a40dc0d6372a9084fb45976308087290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ead329c56e963fd5df9d3fab3bdf1a9') in 0.097195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.407190 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignVC.png
+  artifactKey: Guid(d1d45eadab0e41c4a82cdffb6396b1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignVC.png using Guid(d1d45eadab0e41c4a82cdffb6396b1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60553e93feee69f868b28812ee06e3f3') in 0.019069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.161497 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro
+  artifactKey: Guid(af55cfd0e7084ab4884c5a4f29b62d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro using Guid(af55cfd0e7084ab4884c5a4f29b62d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb1c77f336ae540f51fd57e03d7d06a') in 0.000434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.151993 seconds.
+  path: Assets/Player Controller/Resources/DOTweenSettings.asset
+  artifactKey: Guid(d4185e1ca8456e24abacdbc4a4db70dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Resources/DOTweenSettings.asset using Guid(d4185e1ca8456e24abacdbc4a4db70dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5e5513caa051523234dbaa0aa2d44f') in 0.001112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.153982 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02.png
+  artifactKey: Guid(ff88be84254fb1f4b9a81a27ae0b2e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02.png using Guid(ff88be84254fb1f4b9a81a27ae0b2e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e42387007a711db0f4ab1391a2103a') in 0.023226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.179709 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeVAlignL.png
+  artifactKey: Guid(32eaa0efb2b38774ea9705b40fdcc00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_distributeVAlignL.png using Guid(32eaa0efb2b38774ea9705b40fdcc00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3685baeb663628d93d891f9ba246a07c') in 0.088614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.152377 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha80.png
+  artifactKey: Guid(595b166389c8db546a199430284ebc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha80.png using Guid(595b166389c8db546a199430284ebc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08314a0681f26d0e80c5559adc0f97d6') in 0.062458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.255109 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.xml
+  artifactKey: Guid(d4a42b2e4e6f64d4ba01d35c5a3dafed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.xml using Guid(d4a42b2e4e6f64d4ba01d35c5a3dafed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e035aa72f95a82febe8d3cec27d0648') in 0.000820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.197049 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_star.png
+  artifactKey: Guid(21820ec6fc9dd0b4fbf42a3b93fdad4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_star.png using Guid(21820ec6fc9dd0b4fbf42a3b93fdad4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32a26c6b1d8fd6fea7dc2e0aeff6298') in 0.096930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.362713 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro Examples/Examples Assets/dotweenpro_logo.png
+  artifactKey: Guid(44a054df1702e39458b7072b08d0f212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro Examples/Examples Assets/dotweenpro_logo.png using Guid(44a054df1702e39458b7072b08d0f212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a31dfe496cfd65f3664cef8e3cf75d') in 0.082003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.134857 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmptyThick.png
+  artifactKey: Guid(fc3b86627d5fe1c4d865b80627e2e37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmptyThick.png using Guid(fc3b86627d5fe1c4d865b80627e2e37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95056fcd3288252634845ef3cc44bc37') in 0.054493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.220331 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_darkBorder.png
+  artifactKey: Guid(27df4ca974a8eaf40803907859421506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteDot_darkBorder.png using Guid(27df4ca974a8eaf40803907859421506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db071878e0d51defec908ec31c3d7ee3') in 0.062663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.198249 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_shaders.png
+  artifactKey: Guid(f252c69cd0163714eba038403f61b09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_shaders.png using Guid(f252c69cd0163714eba038403f61b09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c4b10bba0751962c620c71c9f4c1cf') in 0.090566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.191188 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_skull.png
+  artifactKey: Guid(d563d6ce25cd2ca48b185ec47a74a3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_skull.png using Guid(d563d6ce25cd2ca48b185ec47a74a3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8b50881e8da282386689a6d0caece1') in 0.111451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.155407 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty02.png
+  artifactKey: Guid(7d504312fad10f040b95bd8836dc6fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurvedEmpty02.png using Guid(7d504312fad10f040b95bd8836dc6fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1eb4b454365656d9c2347d13eefb41e') in 0.073407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.286339 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_end.png
+  artifactKey: Guid(a248c8288afb9184f953d9aa07a696b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_end.png using Guid(a248c8288afb9184f953d9aa07a696b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14bd756e2743a52e3152c35dc4323e4') in 0.059592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.162053 seconds.
+  path: Assets/Player Controller/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9f538417278e9635123c40494db742') in 0.000484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.172377 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha15.png
+  artifactKey: Guid(53d696c01f6ca524383f11fcc34dd13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha15.png using Guid(53d696c01f6ca524383f11fcc34dd13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2b53f076c59ebe341b81e243ebb315') in 0.060699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.343824 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_flipV.png
+  artifactKey: Guid(c44ae4a96937e2c4b8be481648364682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_flipV.png using Guid(c44ae4a96937e2c4b8be481648364682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f792a4412d4d7cd40d530202a1609d3') in 0.135008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.246823 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignR.png
+  artifactKey: Guid(727ba41e4cc95fe4a98b07301e3ebfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignR.png using Guid(727ba41e4cc95fe4a98b07301e3ebfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747d9433179885c3129afcd78ff94cc6') in 0.018995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.246101 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs
+  artifactKey: Guid(63c02322328255542995bd02b47b0457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs using Guid(63c02322328255542995bd02b47b0457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb881604a5610d7e39fe761964e40a5a') in 0.000429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.177318 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs
+  artifactKey: Guid(e944529dcaee98f4e9498d80e541d93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs using Guid(e944529dcaee98f4e9498d80e541d93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040ecb961f033562bfffdcddaf9dd1f4') in 0.000385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.189195 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll
+  artifactKey: Guid(aa0b1eebb5db27a419fa4564bbe5c9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll using Guid(aa0b1eebb5db27a419fa4564bbe5c9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb2f6d1f3954773980b9f5b2631e2b9') in 0.000390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.162907 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareCornersEmpty02.png
+  artifactKey: Guid(ca2f91cc405eb144dad970eb23db2f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareCornersEmpty02.png using Guid(ca2f91cc405eb144dad970eb23db2f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45db835d5fdab8caf4c35a3fdf92c0d2') in 0.019352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.289016 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs
+  artifactKey: Guid(188918ab119d93148aa0de59ccf5286b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs using Guid(188918ab119d93148aa0de59ccf5286b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c62f576aa6cd96f2dbd131924d2793') in 0.000475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.182141 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02_darkBorders.png
+  artifactKey: Guid(e3ae01f12865ad54ba365963bda55759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderCurved02_darkBorders.png using Guid(e3ae01f12865ad54ba365963bda55759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916dd52c83067835c1bc1df76dadc080') in 0.071635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.164729 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/DemiLib.dll
+  artifactKey: Guid(54be29b67d0d29a478da2c6e5c62f091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/DemiLib.dll using Guid(54be29b67d0d29a478da2c6e5c62f091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cecb380098c54842e87242ecf4dbbe0') in 0.000435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.431628 seconds.
+  path: Assets/Player Controller/_Scripts/Slash2.cs
+  artifactKey: Guid(6b98a87cac17e074a8352a7f6779feef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/_Scripts/Slash2.cs using Guid(6b98a87cac17e074a8352a7f6779feef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cc614f55e487774ec2b43b3f1065a6') in 0.000382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.256775 seconds.
+  path: Assets/Player Controller/Parry1.anim
+  artifactKey: Guid(4229158a99d1385449cfd9b8c0f5d690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Parry1.anim using Guid(4229158a99d1385449cfd9b8c0f5d690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6293069dd64227e5721583a59b67e842') in 0.015207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.310852 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui.png
+  artifactKey: Guid(cb46e1d925af22d43a6f8bf0e1d459e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui.png using Guid(cb46e1d925af22d43a6f8bf0e1d459e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdee60824e8be88a253fdb300a601d0') in 0.018719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.161139 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareCurved.png
+  artifactKey: Guid(070edb62059c27b408e16f28cb87f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/whiteSquareCurved.png using Guid(070edb62059c27b408e16f28cb87f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbdc577286c869bf4ffdda9cbb4e20c8') in 0.149128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.124906 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png
+  artifactKey: Guid(61521df2e071645488ba3d05e49289ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png using Guid(61521df2e071645488ba3d05e49289ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e69c522f4e01f3b8eaf20d7ed9d496c') in 0.073578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.206647 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_fonts.png
+  artifactKey: Guid(cf986943c88c2254780c17b2b5e3bc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_fonts.png using Guid(cf986943c88c2254780c17b2b5e3bc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a50b5f4a63cbad42d3ebf821768157') in 0.018425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.235560 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll
+  artifactKey: Guid(a6402d4311c862b4eb1325590d6466af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll using Guid(a6402d4311c862b4eb1325590d6466af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e617a70e0b3ba2cd3e1e16e5d71ac7') in 0.000422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.356928 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty03.png
+  artifactKey: Guid(c0a56b88a1b449045b3fe5f561aa12fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/squareBorderEmpty03.png using Guid(c0a56b88a1b449045b3fe5f561aa12fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6759b22b45bfeeecd75f8bfe63168ceb') in 0.108878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.148483 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_star.png
+  artifactKey: Guid(645aafe2260b2884a9df05b4bc01b1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_star.png using Guid(645aafe2260b2884a9df05b4bc01b1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5570ddc88cef6dcaef650bc992c2fa19') in 0.129442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.184134 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll
+  artifactKey: Guid(45d5034162d6cf04dbe46da84fc7d074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll using Guid(45d5034162d6cf04dbe46da84fc7d074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689e3b5e566c3bf95c6f4b754969c648') in 0.000432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.163657 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/readme.txt
+  artifactKey: Guid(fccfc62abf2eb0a4db614853430894fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/readme.txt using Guid(fccfc62abf2eb0a4db614853430894fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a326ea2a8fa57bd3110d79352fbe505') in 0.000733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.177337 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_BasicsSettings.lighting
+  artifactKey: Guid(c8e4cdd9f8947644387edd825d0b2015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro Examples/DOTweenAnimation_BasicsSettings.lighting using Guid(c8e4cdd9f8947644387edd825d0b2015) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '1f869c749ef1c525b925a61ddd4689f9') in 0.000780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.186770 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project
+  artifactKey: Guid(52bdbb53205da074d9937b996806e2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project using Guid(52bdbb53205da074d9937b996806e2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d052dab7f6fa81eb7bc50a96f8708d') in 0.000375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.202514 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTweenPro/Editor
+  artifactKey: Guid(34ca5bde92f87fa4dbeb9593d201fde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTweenPro/Editor using Guid(34ca5bde92f87fa4dbeb9593d201fde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8059455566238a181c84b0dfc24d0d8') in 0.000359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.128800 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui_border.png
+  artifactKey: Guid(c0c40ceac3c6df146a0fcd4e6b226540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_ui_border.png using Guid(c0c40ceac3c6df146a0fcd4e6b226540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d57710deb7ca748c3a51767fb6fd339') in 0.063067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.258791 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha10.png
+  artifactKey: Guid(8c9cfa1dbe00a1d41ae9d14f5ac543ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/blackSquareAlpha10.png using Guid(8c9cfa1dbe00a1d41ae9d14f5ac543ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ed1fd5c911f933703b02b611098792') in 0.014687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.160145 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core
+  artifactKey: Guid(03513cf143bb144409fbb3a51ec77b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core using Guid(03513cf143bb144409fbb3a51ec77b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3da35bf534a13b958fdaa0d1798312e') in 0.000431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.189924 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/readme_DOTweenPro.txt
+  artifactKey: Guid(24123b2fcdc15c943bed44e0c6beeec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/readme_DOTweenPro.txt using Guid(24123b2fcdc15c943bed44e0c6beeec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611ab536616c725d24e303a55e56f835') in 0.000707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.161621 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera_border.png
+  artifactKey: Guid(358cddede8023574191e0aae610a4645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_camera_border.png using Guid(358cddede8023574191e0aae610a4645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932dd036f9db8beb2e86dc58ee4416b3') in 0.079206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.350217 seconds.
+  path: Assets/Player Controller/PH_Baddy_Attack.anim
+  artifactKey: Guid(12cf5461597fab043b8ae9c0c972bbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/PH_Baddy_Attack.anim using Guid(12cf5461597fab043b8ae9c0c972bbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40277af20591112a40c7ae4c35eecc04') in 0.025937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.124858 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/transparentSquare.png
+  artifactKey: Guid(4d338c631fa36f345b72a36f1c91ff9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/transparentSquare.png using Guid(4d338c631fa36f345b72a36f1c91ff9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61858c0e8089cb5777da055c36c954aa') in 0.067961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.164500 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML
+  artifactKey: Guid(2e2c6224d345d9249acfa6e8ef40bb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML using Guid(2e2c6224d345d9249acfa6e8ef40bb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5a66c510820d679e6859afffcfeb55') in 0.000759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.139735 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignT.png
+  artifactKey: Guid(b4785ec6d937dab4fa59da70b69afc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/ico_alignT.png using Guid(b4785ec6d937dab4fa59da70b69afc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb1795616504d2f7779004b81d026ce') in 0.099990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.191000 seconds.
+  path: Assets/Player Controller/Plugins/Demigiant/DOTween/Editor/Imgs
+  artifactKey: Guid(0034ebae0c2a9344e897db1160d71b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Controller/Plugins/Demigiant/DOTween/Editor/Imgs using Guid(0034ebae0c2a9344e897db1160d71b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9988bb1a58b616b2b5dfd369da743108') in 0.000410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
